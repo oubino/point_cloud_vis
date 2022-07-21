@@ -6,14 +6,13 @@ import open3d as o3d
 import matplotlib.pyplot as plt
 import matplotlib.colors as cl
 import time
-import smlm_cloud
+#import smlm_cloud
 from dotenv import load_dotenv, find_dotenv
 
 # Load in environment file
 dotenv_path = find_dotenv()
 load_dotenv(dotenv_path)
 
-#csv_path = os.environ.get('WIND_PATH')
 csv_path = os.environ.get('LINUX_PATH')
 
 # python method for extracting the features
